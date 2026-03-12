@@ -1,0 +1,36 @@
+/* src/components/ui/Footer.module.css */
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+  background: var(--bg-surface);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.copy {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socials a {
+  color: var(--text-muted);
+  transition: var(--transition);
+  display: flex;
+}
+
+.socials a:hover {
+  color: var(--accent);
+  opacity: 1;
+}

@@ -1,0 +1,71 @@
+/* src/components/sections/Work.module.css */
+
+.section {
+  border-top: 1px solid var(--border);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  margin-bottom: 16px;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.intro {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  align-self: end;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.githubLink {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent);
+  transition: var(--transition);
+}
+
+.githubLink:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,114 @@
+/* src/components/sections/Skills.module.css */
+
+.section {
+  border-top: 1px solid var(--border);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  margin-bottom: 16px;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.sub {
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 580px;
+  line-height: 1.75;
+  margin-bottom: clamp(40px, 5vw, 64px);
+}
+
+/* 2-column grid of category blocks */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.category {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  transition: border-color 0.3s ease;
+}
+
+.category:hover {
+  border-color: var(--border-strong);
+}
+
+.categoryTitle {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.skillLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Proficiency dots */
+.dots {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--bg-overlay);
+  border: 1px solid var(--border-strong);
+}
+
+.dotFilled {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.skillName {
+  font-size: 14px;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.skillLevel {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  flex-shrink: 0;
+}

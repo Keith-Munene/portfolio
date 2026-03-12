@@ -1,0 +1,20 @@
+/* src/components/ui/ScrollProgress.module.css */
+
+.track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--bg-elevated);
+  z-index: 9999;
+}
+
+.bar {
+  height: 100%;
+  background: var(--accent);
+  /* Smooth transition as scroll position changes */
+  transition: width 0.1s linear;
+  /* Subtle glow effect */
+  box-shadow: 0 0 8px var(--accent-glow);
+}

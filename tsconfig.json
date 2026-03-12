@@ -1,0 +1,51 @@
+{
+"compilerOptions": {
+/* Target modern JavaScript */
+"target": "ES2020",
+
+/* Libraries available in the environment */
+"lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+/* Use ES modules */
+"module": "ESNext",
+
+/**
+ * Important for Vite.
+ * Allows TypeScript to resolve packages the same way
+ * modern bundlers do.
+ */
+"moduleResolution": "bundler",
+
+/**
+ * Enables absolute imports like:
+ *   @/components/Button
+ "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      
+    }
+ */
+"baseUrl": ".",
+"paths": {
+  "@/*": ["./src/*"],
+  "@components/*": ["src/components/*"]
+},
+
+/* React JSX transform */
+"jsx": "react-jsx",
+
+/* Type safety */
+"strict": true,
+
+/* Interop helpers */
+"esModuleInterop": true,
+"allowSyntheticDefaultImports": true,
+
+/* Build optimizations */
+"skipLibCheck": true,
+"isolatedModules": true,
+"noEmit": true
+},
+
+"include": ["src"]
+}
