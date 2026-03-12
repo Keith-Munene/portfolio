@@ -2,8 +2,7 @@
  * src/components/sections/Work.tsx — Projects / Case Studies
  *
  * Maps over the projects data and renders each as a CaseStudyCard.
- * This is the most important section — it's where recruiters
- * decide whether to reach out.
+ * 
  */
 
 import FadeIn from '@/components/motion/FadeIn'

@@ -6,8 +6,7 @@
  * using our useActiveSection hook.
  *
  * The navbar starts transparent and gains a background
- * after the user scrolls past the hero — a subtle but
- * professional touch.
+ * after the user scrolls past the hero 
  */
 
 import { useState, useEffect } from 'react'

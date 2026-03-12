@@ -1,7 +1,7 @@
 /**
  * src/components/sections/About.tsx — About Section
  *
- * Written like a human talking about their work — not a CV summary.
+ * A snapshot of who Keith is as an engineer and what he brings to the table.
  * Numbers make it credible. Personal details make it memorable.
  */
 

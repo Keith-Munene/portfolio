@@ -2,7 +2,6 @@
  * src/data/timeline.ts — Experience & Education
  *
  * Written as achievements, not job descriptions.
- * Numbers (25%, 30%, 40%) make achievements credible and memorable.
  */
 
 import type { TimelineEntry } from '@/types'
