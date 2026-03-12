@@ -11,7 +11,8 @@
 
 import { useState, useEffect } from 'react'
 import { useActiveSection } from '@/hooks/useActiveSection'
-import styles from './Navbar.module.css'
+import styles from './NavBar.module.css'
+
 
 // The section IDs on the page — must match the id="" attributes
 const SECTION_IDS = ['home', 'about', 'work', 'skills', 'experience', 'contact']
