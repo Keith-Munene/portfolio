@@ -16,7 +16,7 @@
  * 9. Footer     — bottom links
  */
 
-import Navbar from '@/components/ui/Navbar'
+import Navbar from '@/components/ui/NavBar'
 import ScrollProgress from '@/components/ui/ScrollProgress'
 import Footer from '@/components/ui/Footer'
 import Hero from '@/components/sections/Hero'
@@ -25,6 +25,7 @@ import Work from '@/components/sections/Work'
 import Skills from '@/components/sections/Skills'
 import Timeline from '@/components/sections/Timeline'
 import Contact from '@/components/sections/Contact'
+
 
 export default function App() {
   return (

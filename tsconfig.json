@@ -19,16 +19,11 @@
 /**
  * Enables absolute imports like:
  *   @/components/Button
- "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-      
-    }
  */
 "baseUrl": ".",
 "paths": {
   "@/*": ["./src/*"],
-  "@components/*": ["src/components/*"]
+  "@components/*": ["src/components/*"],
 },
 
 /* React JSX transform */
